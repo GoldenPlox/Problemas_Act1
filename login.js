@@ -1,18 +1,12 @@
-console.log("LOGIN");
-let username;
-username= "EDWIN";//correcto
-let key;
-key= 12345;
-let Username;
-Username= "EARROYO";
-let KEY;
-KEY= 2468;
+console.log("Start");
+let usuario_Valido = "ejarroyo";
+let contraseña_Valida = "suda1234";
+let usuario = prompt("Usuario:");
+let contraseña = prompt("Contraseña:");
 
-if(username==username && key==key){
-    console.log("Successful Session Start");
-    }
-    
-    else{
-        console.log("Incorrect password or user");
-    }
-
+if (usuario == usuario_Valido && contraseña == contraseña_Valida) {
+    console.log("Bienvenido");
+  } 
+else {
+    console.log("El usuario o la contraseña son incorrectos");
+  }

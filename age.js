@@ -1,17 +1,10 @@
-console.log("Enter you age: ");
-let age;
-age= 18;
-let Age;
-Age= 17;
-let agemay;
-agemay= 25;
-let permitido;
-permitido= "Succesfull"
-let denegado;
-denegado= "Access Denied";
-if(age>Age && Age<agemay){
-    console.log("Age allowed " + permitido)
-}
-else{
-    console.log(" Minium Age: "+ denegado)
+console.log("Start")
+let edad = prompt("Ingrese su edad");
+let Num_edad = Number(edad);
+
+if (Num_edad > 18 && Num_edad < 25) {
+  console.log("Cumple la edad para el trabajo");
+} 
+else {
+  console.log("No cumple con la edad requerida");
 }

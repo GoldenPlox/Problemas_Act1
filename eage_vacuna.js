@@ -1,18 +1,10 @@
-console.log("Enter you age: ");
-let age;
-age= 6;
-let Age;
-Age= 10;
-let agemay;
-agemay= 65;
-let permitido;
-permitido= "Succesfull"
-let denegado;
-denegado= "Access Denied";
-if(age<Age && Age<agemay){
-    console.log("Receive dose: " + permitido)
+console.log("Start")
+let edad = prompt("Ingrese su Edad");
+let Num_edad = Number(edad);
+
+if (Num_edad < 6 || Num_edad > 65){
+    console.log("Puede recibir la docis");
 }
 else{
-    console.log("Wrong age does not receive dose: "+ denegado)
+    console.log("No puede resibir la docis")
 }
-
